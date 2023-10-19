@@ -1,19 +1,20 @@
 html{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";line-height:1.5;font-size:18px;padding-bottom:40px;}
-body{width:600px;margin:0 auto;}
-header{border-top:solid 10px #393;padding:40px 7px 0 7px;margin:0 -7px 20px -7px;overflow:hidden;}
-header>em{font-size:22px;}
+body{max-width:600px;margin:0 auto;}
 h1,h2{font-family:'trebuchet ms', sans-serif;margin:0;}
 h1{color:#444;letter-spacing: 7px;font-size: 40px;line-height: 1;}
 img{float:left;}
-header>div{position:relative;float:left;margin:0 20px 20px 0;}
-header>div:after{-webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);-moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);border:1px solid rgba(0,0,0,.15);position:absolute;left:0;right:0;top:0;bottom:0;z-index:1;content:'';}
-img,header>div:after{border-radius:3px;}
 ul{padding-left:0;list-style-type:'▸ ';}
+a:link,a:visited{color:#058;}
+abbr{border-bottom:dotted 1px gray;text-decoration:none}
+header{border-top:solid 10px #393;padding:60px 7px 0 7px;margin:0 -10px 20px -10px;overflow:hidden;}
+header>h1{float:left;}
+header>em{font-size:22px;float:left;}
+header>div{position:relative;float:left;margin:-20px 20px 20px 0;}
+header>div:after{-webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);-moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);box-shadow: inset 0 0 0 1px rgba(255,255,255,.15);border:1px solid rgba(0,0,0,.15);position:absolute;left:0;right:0;top:0;bottom:0;z-index:1;content:'';}
+header>div>img,header>div:after{border-radius:3px;}
 section{clear:both;}
 section>p>sub{line-height:0;vertical-align:-4px;font-size:14px;}
-footer {border-top:solid 2px #393;margin:40px -7px 0 -7px;padding:7px 7px 0 7px;text-align:center;font-size:16px;}
+footer{border-top:solid 2px #393;margin:40px -10px 0 -10px;padding:7px 7px 0 7px;text-align:center;font-size:16px;}
 footer>p{margin:0;text-size-adjust:none;-ms-text-size-adjust:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;}
-a:link,a:visited{color:#058;}
 footer>p>span{color:#777;}
 footer:after{content:"\2767";color:#393;font-size:60px;}
-abbr{border-bottom:dotted 1px gray;text-decoration:none}
